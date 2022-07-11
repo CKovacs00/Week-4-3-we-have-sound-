@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(135deg,white, rgb(13, 148, 189), black);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#paraFunc2{
+    color: rgb(rgb(182, 6, 0), green, blue);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#countdownStatus{
+    color: red;
+    font-style: oblique;
+    font-size: 150%;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100px;
+
+}
+
+#data{
+    background-image: linear-gradient(180deg, white, rgb(12, 149, 173));
+}
+

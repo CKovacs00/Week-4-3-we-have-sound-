@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--week 1 assignment, html tags
+Assignment: UAT Space Program - We Have SOUND!
+Connor Kovacs
+kovacsconnor00@gmail.com-->
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">"
+    <script src="code.js"></script>
+    <title>
+        Connor Kovacs's UATSpace Page
+    </title>
+</head>
+
+<body>
+    </table>
+        <tr>
+            <td><img src="UATspaceLogo-2.jpg"></td>
+            <td>
+                <h1>
+                    UAT Space Program
+                </h1>
+            </td>
+        </tr>
+    </table>
+
+
+    <!--data table-->
+    <table id = "data" border="2" width="70%">
+        <col style="width: 35%">
+        <col style="width: 35%">
+        <!--these are to set the styles of the columns of the table-->
+        <thead>
+            <th>
+                Data Type
+            </th>
+            <th>
+                Reading
+            </th>
+            <!--the two headings for the two columns-->
+        </thead>
+        <body>
+            <!--what follows is the inputs of all the data for  the table-->
+            <tr id="seconds">
+                <td>Time elapsed:</td>
+                <td>15 seconds</td>
+            </tr>
+            <tr id="latitude">
+                <td>Latitude:</td>
+                <td>0</td>
+            </tr>
+            <tr id="Longitude">
+                <td>Longitude:</td>
+                <td>0</td>
+            </tr>
+            <tr id="gps_altitude">
+                <td>GPS Altitude:</td>
+                <td>0</td>
+            </tr>
+            <tr id="bmp_altitude">
+                <td>BMP Altitude:</td>
+                <td>30383.04</td>
+            </tr>
+            <tr id="bmp_pressure">
+                <td>BMP pressure:</td>
+                <td>2.34</td>
+            </tr>
+            <tr id="bmp_temperature">
+                <td>BMP temperature:</td>
+                <td>0</td>
+            </tr>
+            <tr id="dig_temperature">
+                <td>Digital temperature:</td>
+                <td>24.12</td>
+            </tr>
+            <tr id="css_temperature">
+                <td>CSS temperature:</td>
+                <td>25</td>
+            </tr>
+            <tr id="css_eCO2">
+                <td>CSS eCO2:</td>
+                <td>400</td>
+            </tr>
+            <tr id="css_TVOC">
+                <td>CSS TVOC:</td>
+                <td>0</td>
+            </tr>
+            <tr id="css_TVOC">
+                <td>CSS TVOC:</td>
+                <td>0</td>
+            </tr>
+            <tr id="UV">
+                <td>UV:</td>
+                <td>0</td>
+            </tr>
+            <tr id="accelX">
+                <td>accel X:</td>
+                <td>-0.87</td>
+            </tr>
+            <tr id="accelY">
+                <td>accel Y:</td>
+                <td>-0.02</td>
+            </tr>
+            <tr id="accelZ">
+                <td>accel Z:</td>
+                <td>9.61</td>
+            </tr>
+            <tr id="magneticX">
+                <td>Magnetic X:</td>
+                <td>0.13</td>
+            </tr>
+            <tr id="magneticY">
+                <td>Magnetic Y:</td>
+                <td>0.57</td>
+            </tr>
+            <tr id="magneticZ">
+                <td>Magnetic Z:</td>
+                <td>-0.24</td>
+            </tr>
+            <tr id="magneticX">
+                <td>Magnetic X:</td>
+                <td>0.13</td>
+            </tr>
+            <tr id="gyroX">
+                <td>Gyro X:</td>
+                <td>4.66</td>
+            </tr> 
+            <tr id="gyroY">
+                <td>Gyro Y:</td>
+                <td>0.01</td>
+            </tr>
+            <tr id="gyroZ">
+                <td>Gyro Z:</td>
+                <td>-0.4</td>
+            </tr>           
+        </body>
+        
+    </table><br>
+    
+    
+    <button onclick="startFun();" class="button" id="startButton">Start</button>
+    <!--the two buttons for the next assingment-->
+    <button onclick="stopFun();"class="button" id="stopButton">Stop</button><br>
+   
+   
+    <!--for our craps game for html we need:
+    1.button to play craps
+    2.A crap status line
+    3.Header for the game "craps played here"-->
+    <!-- The UAT Space team finished thier website project with record  time, so they decided in their free time
+    and to make it look like they still needed to do work, they decided to insert a craps table. The put it on the main 
+page simply because they could. they knew it was so simple to disable they could simply remove this in an instant. So for now 
+they decided to have fun and continue betting on random numbers on a website.-->
+    <h2>Please try your hand at Craps!</h2>
+    <br>
+    <div id="crapsStatus">Craps Status</div><br>
+    <button onclick="PlayCraps()"class="button">Play Craps</button><br>
+    <br>
+    <br>
+    <h3>Play space station sounds</h3>
+    <h4>warning, audio is loud.</h4>
+    <button class="button" onclick="playStation();">Play Audio</button>
+
+</body>
+
+</html>
